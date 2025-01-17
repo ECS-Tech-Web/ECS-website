@@ -5,46 +5,22 @@ import "./dashboard.css";
 
 const Dashboard = () => {
     const [user, setUser] = React.useState(null);
-    const fileInputRef = React.useRef(null); // Reference to the hidden file input
+    const fileInputRef = React.useRef(null);
 
     const updateAvatar = () => {
-        // Trigger the hidden file input click
         if (fileInputRef.current) {
             fileInputRef.current.click();
         }
     };
-    const handleLogout = async () => {
-      try {
-          const response = await fetch("/api/v1/users/logout", {
-              method: "POST",
-              headers: {
-                  Authorization: `Bearer ${localStorage.getItem("token")}`,
-              },
-          });
 
-          if (response.ok) {
-              localStorage.removeItem("token");
-              localStorage.removeItem("user");
-              setUser(null); // Reset the user state
-          } else {
-              const data = await response.json();
-              throw new Error(data.message || "Failed to log out");
-          }
-      } catch (error) {
-          console.error("Error logging out:", error);
-          alert("Failed to log out. Please try again.");
-      }
-    };
     const handleFileChange = async (event) => {
         try {
             const file = event.target.files[0];
             if (!file) return;
 
-            // Create FormData to send the file
             const formData = new FormData();
             formData.append("avatar", file);
 
-            // Send the file to the backend
             const response = await fetch("/api/v1/users/updateAvatar", {
                 method: "PATCH",
                 headers: {
@@ -56,7 +32,6 @@ const Dashboard = () => {
             const data = await response.json();
 
             if (response.ok) {
-                // Update user avatar in local state and localStorage
                 const updatedUser = { ...user, avatar: data.data.avatar };
                 setUser(updatedUser);
                 localStorage.setItem(
@@ -73,7 +48,33 @@ const Dashboard = () => {
         }
     };
 
-    // Fetch user data from localStorage on component mount
+    const handleLogout = async () => {
+        try {
+            const response = await fetch("/api/v1/users/logout", {
+                method: "POST",
+                headers: {
+                    Authorization: `Bearer ${localStorage.getItem("token")}`, 
+                    "Content-Type": "application/json",
+                },
+            });
+
+            if (!response.ok) {
+                throw new Error("Failed to log out");
+            }
+
+            // Clear localStorage and reset state
+            localStorage.removeItem("token");
+            localStorage.removeItem("user");
+            setUser(null);
+
+            alert("Logged out successfully!");
+            window.location.href = "/sign-in"; // Redirect to sign-in page
+        } catch (error) {
+            console.error("Error logging out:", error);
+            alert("Failed to log out. Please try again.");
+        }
+    };
+
     React.useEffect(() => {
         try {
             const storedUser = localStorage.getItem("user");
@@ -106,7 +107,6 @@ const Dashboard = () => {
                 <MDBRow className="flex justify-content-center align-items-center h-100">
                     <MDBCol lg="6" className="mb-4 mb-lg-0">
                         <MDBCard className="mb-3 mt-5" style={{ borderRadius: '.5rem' }}>
-                            {/* main-component */}
                             <MDBRow className="flex w-screen mobile:flex-col g-0 justify-center mobile:mx-3 mobile:items-center">
                                 <MDBCol md="4" className="dashboard-glow w-1/5 rounded-l-md mobile:rounded-t-md mobile:rounded-b-none mobile:w-full gradient-custom text-center text-white flex flex-col mobile:flex-row pc:flex-col gap-5 justify-center pt-4 pb-4"
                                     style={{ display: 'flex', flexDirection: 'none', borderTopLeftRadius: '.5rem' }}>
@@ -124,14 +124,14 @@ const Dashboard = () => {
                                             Click to Upload your Avatar
                                         </p>
                                     )}
-                                    <div className='topography-container'>
+                                    <div className="topography-container">
                                         <MDBTypography tag="h5">{user.username || "Username"}</MDBTypography>
                                         <MDBCardText>{user.scholar_ID || "Scholar ID"}</MDBCardText>
-                                        <MDBIcon far className='text-red-400' icon="edit mb-5 " />
+                                        <MDBIcon far className="text-red-400" icon="edit mb-5" />
                                         <button onClick={handleLogout}>Logout</button>
                                     </div>
                                 </MDBCol>
-                                <MDBCol md="8" className='w-3/5 dashboard-glow text-black rounded-r-md mobile:rounded-tr-none mobile:w-full mobile:mx-3 mobile:rounded-b-md' style={{ backgroundColor: '#457eef' }}>
+                                <MDBCol md="8" className="w-3/5 dashboard-glow text-black rounded-r-md mobile:rounded-tr-none mobile:w-full mobile:mx-3 mobile:rounded-b-md" style={{ backgroundColor: '#457eef' }}>
                                     <MDBCardBody className="p-4">
                                         <MDBTypography tag="h6">Information</MDBTypography>
                                         <div className="mt-0 mb-4 h-1 rounded-xl w-full bg-black" />
@@ -177,7 +177,6 @@ const Dashboard = () => {
                 </MDBRow>
             </MDBContainer>
 
-            {/* Hidden File Input */}
             <input
                 type="file"
                 ref={fileInputRef}
@@ -187,6 +186,6 @@ const Dashboard = () => {
             />
         </section>
     );
-}
+};
 
 export default Dashboard;
