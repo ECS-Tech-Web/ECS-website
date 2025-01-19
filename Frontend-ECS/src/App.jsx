@@ -8,7 +8,6 @@ import Members from './pages/members/Members.jsx';
 import Developers from './pages/developers/Developers.jsx';
 import Signin from './pages/Signin.jsx';
 import Signup from './pages/Signup.jsx';
-import Profile from './pages/Profile.jsx';
 import ResourceHub from './pages/Resource Hub/ResourceHub.jsx';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
