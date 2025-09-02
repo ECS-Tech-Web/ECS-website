@@ -34,16 +34,7 @@ function Signin() {
         }
 
         try { 
-            // const res = await fetch("https://ecs-shashwat.onrender.com/api/v1/users/login",{
-            //     method: "POST",
-            
-            //     headers: {
-            //         "Content-Type": "application/json",
-            //     },
-            //     credentials: "include", // Include cookies in requests
-            //     body: JSON.stringify(formData),
-            // });
-            const res = await fetch("http://localhost:7000/api/v1/users/login",{
+            const res = await fetch("https://ecs-shashwat.onrender.com/api/v1/users/login",{
                 method: "POST",
             
                 headers: {
@@ -52,6 +43,15 @@ function Signin() {
                 credentials: "include", // Include cookies in requests
                 body: JSON.stringify(formData),
             });
+            // const res = await fetch("http://localhost:7000/api/v1/users/login",{
+            //     method: "POST",
+            
+            //     headers: {
+            //         "Content-Type": "application/json",
+            //     },
+            //     credentials: "include", // Include cookies in requests
+            //     body: JSON.stringify(formData),
+            // });
 
 
             if (!res.ok) {
