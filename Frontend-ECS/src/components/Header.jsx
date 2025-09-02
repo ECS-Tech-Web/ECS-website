@@ -13,7 +13,7 @@ export default function Header() {
             setIsActive(!isActive);
         };
     const [hoveredLink, setHoveredLink] = useState(null);
-    const { isLoggedIn } = useContext(AuthContext);
+    const { isLoggedIn,user } = useContext(AuthContext);
     console.log(isLoggedIn);
 
     const handleHover = (link) => {
@@ -53,11 +53,7 @@ export default function Header() {
                     </Link></div>
                 </div>
 
-                {/* <div className='pr-4'>
-                <Link to="/" className="flex items-center justify-center ">
-                        <FaUser size={38}/>
-            </Link> */}
-                {/* </div> */}
+                
         {isLoggedIn ? (<div className='pr-4'>
                         <Link to="/profile" className="flex items-center">
                             <FaUser size={38}/>

@@ -7,6 +7,9 @@
 
 .image{
   margin-bottom: 0% !important;
+  width: 600px;         /* Adjust width to desired size */
+  height: auto;       /* Maintain aspect ratio */
+  object-fit: contain;
 }
   
   

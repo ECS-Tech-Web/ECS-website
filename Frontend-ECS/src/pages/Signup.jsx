@@ -35,7 +35,7 @@ function Signup() {
         }
 
         try {
-            const res = await fetch("https://ecs-shashwat.onrender.com/api/v1/users/register", {
+            const res = await fetch("http://localhost:7000/api/v1/users/register", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -49,6 +49,20 @@ function Signup() {
                     password: formData.password,
                 }),
             });
+            // const res = await fetch("https://ecs-shashwat.onrender.com/api/v1/users/register", {
+            //     method: "POST",
+            //     headers: {
+            //         "Content-Type": "application/json",
+            //     },
+            //     body: JSON.stringify({
+            //         username: formData.username,
+            //         fullName: formData.fullName,
+            //         email: formData.email,
+            //         scholar_ID: formData.scholar_ID,
+            //         Mobile_No: formData.Mobile_No,
+            //         password: formData.password,
+            //     }),
+            // });
 
             if (!res.ok) {
                 const errorText = await res.text();
@@ -130,7 +144,7 @@ function Signup() {
                     value={formData.scholar_ID}
                     onChange={handleChange}
                     className="p-2 border border-gray-300 rounded"
-                    maxLength={7}
+                    maxLength={10}
                     minLength={7}
                 />
                 <input
@@ -174,3 +188,7 @@ function Signup() {
 }
 
 export default Signup;
+
+
+
+

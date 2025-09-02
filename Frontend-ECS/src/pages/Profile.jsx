@@ -36,6 +36,7 @@ function Profile() {
     }
 };
 
+
   const updateAvatar = async () => {
     try {
       // Open a file picker dialog

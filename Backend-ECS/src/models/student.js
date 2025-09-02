@@ -22,7 +22,7 @@ const studentSchema = new Schema({
     }
     ,
     scholar_ID:{ 
-        type:Number,
+        type:String,
         required:true,
         unique:true,
 
@@ -44,6 +44,10 @@ const studentSchema = new Schema({
     },
     eventsRegistered:{
         type:Array
+    },
+    isECE:{
+        type:Boolean,
+        default:false
     }
 })
 
