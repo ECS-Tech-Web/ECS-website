@@ -22,5 +22,6 @@
     "dev": "nodemon src/index.js"
   },
   "author": "Shashwat",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }

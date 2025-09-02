@@ -1,4 +1,3 @@
-
 import mongoose , {Schema}from "mongoose";
 import bcrypt from "bcrypt";
 import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
@@ -22,7 +21,7 @@ const studentSchema = new Schema({
     }
     ,
     scholar_ID:{ 
-        type:Number,
+        type:String,
         required:true,
         unique:true,
 
@@ -44,6 +43,10 @@ const studentSchema = new Schema({
     },
     eventsRegistered:{
         type:Array
+    },
+    isECE:{
+        type:Boolean,
+        default:false
     }
 })
 
