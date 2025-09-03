@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
 
           <h2 className="text-foot text-base mb-3">CONTACT US</h2>
-          <p className="text-base font-rajdhani mb-3">Email: ecs.nitsilchar2025@gmail.com</p>
+          <p className="text-base font-rajdhani mb-3">Email: ecs.nitsilchar2026@gmail.com</p>
 
           {/* Social Links */}
           <h2 className="text-foot text-base mb-3 bg-gradient-to-b from-top to-bot bg-clip-text text-transparent">FOLLOW US</h2>
