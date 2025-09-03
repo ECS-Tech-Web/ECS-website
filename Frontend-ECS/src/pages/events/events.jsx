@@ -54,7 +54,7 @@ const Events = () => {
 
     const handleMouseLeave = () => {
       if (isFitSection) {
-        setButtonImage("https://i.postimg.cc/cCnQ2P6k/Whats-App-Image-2025-01-15-at-20-26-14-1efc9130-removebg-preview.png")
+        setButtonImage("https://i.postimg.cc/1506Lky2/Whats-App-Image-2025-01-15-at-21-04-35-dd05225e-removebg-preview.png")
       }
       else if(isLITSection || isTECHSection){
         setButtonImage("https://i.postimg.cc/1506Lky2/Whats-App-Image-2025-01-15-at-21-04-35-dd05225e-removebg-preview.png")
