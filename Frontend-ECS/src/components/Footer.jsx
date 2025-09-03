@@ -8,12 +8,9 @@ const Footer = () => {
         <div className="text-center tablet:text-left mb-6 tablet:mb-0 tablet:ml-[5vw] xl:ml-0">
           <h2 className="text-foot text-base mb-3">QUICK LINKS</h2>
           <ul className="mobile:-translate-x-[20vw] tablet:transform-none top-0 space-y-2 text-base text-left font-rajdhani">
-            {/* <li><a href="/Resource+Hub" className="hover:text-[#819BE2]">Resource Hub</a></li> */}
-            <li><div className={styles.Naveffect} >
-                                <Link to={"/annual-attraction"}>Annual Attraction
-                                </Link></div></li>
+            <li><a href="/Resource+Hub" className="hover:text-[#819BE2]">Resource Hub</a></li>
             <li><a href="" className="hover:text-[#819BE2]">Messages</a></li>
-            <li><a href="/annual-attraction" className="hover:text-[#819BE2]">Annual <br />Attraction</a></li>
+            <li><a href="https://ecs-website-ywj6.vercel.app/annual-attraction" className="hover:text-[#819BE2]">Annual <br />Attraction</a></li>
             
           </ul>
         </div>
