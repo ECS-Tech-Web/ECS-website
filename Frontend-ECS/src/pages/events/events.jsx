@@ -35,7 +35,7 @@ const Events = () => {
       isLITSection || isTECHSection
         ? "https://i.postimg.cc/1506Lky2/Whats-App-Image-2025-01-15-at-21-04-35-dd05225e-removebg-preview.png"
         : isFitSection
-        ? "https://i.postimg.cc/cCnQ2P6k/Whats-App-Image-2025-01-15-at-20-26-14-1efc9130-removebg-preview.png"
+        ? "https://i.postimg.cc/1506Lky2/Whats-App-Image-2025-01-15-at-21-04-35-dd05225e-removebg-preview.png"
         : "https://i.postimg.cc/mgjNYYv7/Component-2.png"
     );
     
