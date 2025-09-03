@@ -42,7 +42,7 @@ const Events = () => {
 
     const handleMouseEnter = () => {
       if (isFitSection) {
-        setButtonImage("https://i.postimg.cc/05CC71DZ/Whats-App-Image-2025-01-15-at-20-40-12-d54596a0-removebg-preview.png")
+        setButtonImage("https://i.postimg.cc/1506Lky2/Whats-App-Image-2025-01-15-at-21-04-35-dd05225e-removebg-preview.png")
       }
       else if(isLITSection || isTECHSection){
         setButtonImage("https://i.postimg.cc/MKJV36J1/Whats-App-Image-2025-01-15-at-21-05-01-cc2300b5-removebg-preview.png")
@@ -155,21 +155,21 @@ const Events = () => {
           description: "The chess competition under the Spectrum FIT domain fosters critical thinking, strategy, and mental agility. It serves as a platform for participants to showcase their intellectual prowess and decision-making skills",
           image:
             "https://i.postimg.cc/Y9SzsKqH/Whats-App-Image-2025-01-14-at-13-45-59-387cf123.jpg",
-          link:"https://docs.google.com/forms/d/e/1FAIpQLSdVd4FTMyXtiQwdjVGN9woDhDo1xNbEfwW104tExrz2qUWtqA/alreadyresponded"
+          // link:"https://docs.google.com/forms/d/e/1FAIpQLSdVd4FTMyXtiQwdjVGN9woDhDo1xNbEfwW104tExrz2qUWtqA/alreadyresponded"
         },
         {
           title: "Table Tennis",
           description: "Table tennis under Spectrum FIT highlights agility, reflexes, and quick decision-making. The competition fosters both individual and team skills, requiring intense focus and coordination for success",
           image:
             "https://i.postimg.cc/43P1PNGP/Whats-App-Image-2025-01-14-at-13-46-00-a92c5ee1.jpg",
-          link:"https://docs.google.com/forms/d/e/1FAIpQLSdvzabebA5eH6TjvtFliHy8jnRAQQRjkJD_68D__jvorok4Zg/viewform"
+          // link:"https://docs.google.com/forms/d/e/1FAIpQLSdvzabebA5eH6TjvtFliHy8jnRAQQRjkJD_68D__jvorok4Zg/viewform"
         },
         {
           title: "Badminton",
           description: "Badminton promotes agility, endurance,& control over rapid movements. The competition encourages both individual excellence & team collaboration, testing players' reflexes and strategic thinking.",
           image:
             "https://i.postimg.cc/43s5pHDn/Whats-App-Image-2025-01-14-at-13-46-01-501cd8e6.jpg",
-          link:"https://docs.google.com/forms/d/e/1FAIpQLSdUsnKg4k-x2xQIuhbgZ95U2_JrkcJMFP5-ALXB61FwREA6qg/viewform"
+          // link:"https://docs.google.com/forms/d/e/1FAIpQLSdUsnKg4k-x2xQIuhbgZ95U2_JrkcJMFP5-ALXB61FwREA6qg/viewform"
         },
         {
           title: "Cricket",
