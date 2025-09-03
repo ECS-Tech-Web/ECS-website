@@ -10,7 +10,7 @@ const Footer = () => {
           <ul className="mobile:-translate-x-[20vw] tablet:transform-none top-0 space-y-2 text-base text-left font-rajdhani">
             <li><a href="/Resource+Hub" className="hover:text-[#819BE2]">Resource Hub</a></li>
             <li><a href="" className="hover:text-[#819BE2]">Messages</a></li>
-            <li><a href="https://ecs-website-ywj6.vercel.app/annual-attraction" className="hover:text-[#819BE2]">Annual <br />Attraction</a></li>
+            <li><a href="/annual-attraction" className="hover:text-[#819BE2]">Annual <br />Attraction</a></li>
             
           </ul>
         </div>
