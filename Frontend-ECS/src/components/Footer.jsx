@@ -11,7 +11,7 @@ const Footer = () => {
           <ul className="mobile:-translate-x-[20vw] tablet:transform-none top-0 space-y-2 text-base text-left font-rajdhani">
             <li><a href="/Resource+Hub" className="hover:text-[#819BE2]">Resource Hub</a></li>
             <li><a href="" className="hover:text-[#819BE2]">Messages</a></li>
-            <li><Link to="/annual-attraction" className="hover:text-[#819BE2]">Annual <br />Attraction</Link></li>
+            <li><Link to="/annual-attraction" className="hover:text-[#819BE2]">Annuall<br />Attraction</Link></li>
             
           </ul>
         </div>
