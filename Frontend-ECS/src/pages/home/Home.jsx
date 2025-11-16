@@ -5,7 +5,7 @@ import AboutUs from './AboutUs';
 import Annual from './Annual';
 import ParticlesComponent from '../Particle/Particle';
 import Typewriter from "typewriter-effect";
-
+import "./home.css";
 
 export default function Home() {
     return (
@@ -14,22 +14,25 @@ export default function Home() {
             <div className='absolute w-full top-1/3 flex flex-col'>
             
            
-                <h2 className=" title text-white flex justify-center items-center text-center text-4xl font-bold sm:text-5xl ">
-                    Electronics and Communication Society
-                </h2>
+                <h2 className="glitch text-center">Electronics and Communication Society</h2>
+
                
-                <div id="hero" className="text-yellow-400 flex justify-center items-center text-4xl font-bold sm:text-5xl pl-6">
-                    <span className='typingText'>
-                        <Typewriter
-                            onInit={(typewriter) => {
-                                typewriter
-                                    .typeString("NIT SILCHAR")
-                                    .pauseFor(1000)
-                                    .start();
-                            }}
-                        />
-                    </span>
-                </div>
+                <div
+  id="hero"
+  className="text-emerald-400 flex justify-center items-center text-4xl font-extrabold sm:text-5xl pl-6 drop-shadow-[0_0_15px_#10b981]"
+>
+  <span className="typingText">
+    <Typewriter
+      onInit={(typewriter) => {
+        typewriter
+          .typeString("NIT SILCHAR")
+          .pauseFor(1000)
+          .start();
+      }}
+    />
+  </span>
+</div>
+
 
             </div>
             <div className="pc:h-[90vh] mobile:h-[90vh]" ></div>

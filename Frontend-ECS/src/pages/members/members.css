@@ -7,14 +7,15 @@
 }
 
 .main {
-    background: url('https://i.postimg.cc/hjt1Bfbp/bgImage.png') no-repeat top center; 
-    background-size: 100% auto; 
-    background-attachment: scroll;
-    margin: 0; 
-    padding: 0;
-    width: 100%; 
-    max-width: none; 
-  }
+  background: url('https://i.postimg.cc/SsrLfD7n/bgImage2.jpg') repeat-y top center;
+  background-size: auto; /* don't stretch image */
+  background-attachment: scroll;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: none;
+}
+
   
   @media (max-width: 768px) {
     .main {

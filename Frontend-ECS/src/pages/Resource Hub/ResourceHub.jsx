@@ -56,7 +56,79 @@ const ResourceHub = () => {
       { name: "PART-1.pdf", link: "https://drive.google.com/uc?export=download&id=1uoJAuZ6Q8b_LQZo800VPGzP0MIBv6ykV" },
       { name: "Evs Textbook-2.pdf", link: "https://drive.google.com/uc?export=download&id=1lVaSUhFuDAeDzTpP8R8MqSqxTmxyDzoc" },
       { name: "Biodiversity E Bharucha.pdf", link: "https://drive.google.com/uc?export=download&id=1bLgduNwKRakB2a1rBgc9piDV_aHEDFXm" }
-    ]
+    ],
+    [{ name: "Work and Energy Aishwarya", link: "https://drive.google.com/uc?export=download&id=14vQIc1rGgtowySA9v_Ar7qGQr8OUTxNr" },
+      { name: "Virtual Work Mechanics.pdf", link: "https://drive.google.com/uc?export=download&id=12dLPUgG1uDwBmGMF10yd86KiMVuDRxyi" },
+      { name: "tillTruss.pdf", link: "https://drive.google.com/uc?export=download&id=1OVY8xZbuhtMKoD9qMJ8v5dbO-OtIP1sP" },
+      { name: "SHM Mechanics.pdf", link: "https://drive.google.com/uc?export=download&id=10Ulhc2mGXfmnd1x3PY985y7NoQAe-A93" },
+      { name: "PrincipleVirtualWork.pdf", link: "https://drive.google.com/uc?export=download&id=1p66aLbATViFMB96_TBCyVohv_H_M7Lp_" },
+      { name: "New DOC 2020-03-25 12.47.17.pdf", link: "https://drive.google.com/uc?export=download&id=1mpY33OU_cnOgZEov95hynuSeXqEt5_ri" },
+      { name: "mid and end sem mechanics questions paper-1.pdf", link: "https://drive.google.com/uc?export=download&id=1oBhgQZdLVarDpUUMpNmwPHEOW3gcDMNU" },
+      { name: "mechanics notes.pdf", link: "https://drive.google.com/uc?export=download&id=1JbdKXKK41P1BcmJYPXYRwdze7fVTXneI" },
+      { name: "mechanics note of patnayak sir after mid sem.pdf", link: "https://drive.google.com/uc?export=download&id=1Sm8G2m3ykMVRdiynekGl3F7f4wV1zZcl" },
+      { name: "Mechanics 7.pdf", link: "https://drive.google.com/uc?export=download&id=1cYjRx2TxPZzNs7ibxRHa39vBHCotFw7c" },
+      { name: "Mechanics 6.pdf", link: "https://drive.google.com/uc?export=download&id=1LqHvk0lBxKzXt_tFxobudj0cJoKfFhYa" },
+      { name: "Mechanics 5.pdf", link: "https://drive.google.com/uc?export=download&id=1ao5LMV3CEa6Jw57dkBMUPZAmfG3GrQ55" },
+      { name: "Mechanics 4.pdf", link: "https://drive.google.com/uc?export=download&id=1ttjVTmlKG6cjVec-qKXqppyHNHFXV1Lz" },
+      { name: "Mechanics 3.pdf", link: "https://drive.google.com/uc?export=download&id=1yBVC6fyJs1-EeVea_88Dg7V0OHtT0dB-" },
+      { name: "Mechanics 2.pdf", link: "https://drive.google.com/uc?export=download&id=1Dt-49JvBjQqAK2-3BXbKzAGvUrqwTnqr" },
+      { name: "Mechanics 1st year mid_sem.pdf", link: "https://drive.google.com/uc?export=download&id=1H_1JcM6VbtFDgmi8xFmThrYogdyBWjZ6" },
+      { name: "Mechanics 1.pdf", link: "https://drive.google.com/uc?export=download&id=1GzuI1LocPjUVcBV85oV2-VrFhqzK5ohY" },
+      { name: "Laws Of Motion Aishwarya.pdf", link: "https://drive.google.com/uc?export=download&id=1J1dDD6zUSTNYCaJrPAQcWMGrZ5yTx5ud" },
+      { name: "Engineering Mechanics Notes.pdf", link: "https://drive.google.com/uc?export=download&id=1Bv6o0drS097jjXipF9UmwZRaija9hBPQ" },
+      { name: "Dynamics Notes Aishwarya.pdf", link: "https://drive.google.com/uc?export=download&id=18G3JsZRf6YOTSUen0k89IcNcZHGNNtR5" },
+      { name: "Doc- 21-Feb-2020.pdf", link: "https://drive.google.com/uc?export=download&id=1fag88uz-u9CZvftfgL0tQagMEVGxBeY7" },
+      { name: "CG and MOI Mechanics.pdf", link: "https://drive.google.com/uc?export=download&id=1p6DiA-eWhiB20DQ1tsnjgQyXv1tz9P0v" },
+      { name: "Beam Mechanics.pdf", link: "https://drive.google.com/uc?export=download&id=1MWgSRIS6U7h22lk_ovO0zwrqFNek4mfJ" }
+    ],
+    
+    [{ name: "solid state physics-1.pdf", link: "https://drive.google.com/uc?export=download&id=1N11pRO8yIAMgwdJzySVnBER3btjzX262" },
+      { name: "solid state notes aishwarya.pdf", link: "https://drive.google.com/uc?export=download&id=1iZqJXgdzQIN5hjteRjw1IqLExpcO9a_Y" },
+      { name: "Quantum.pdf", link: "https://drive.google.com/uc?export=download&id=1u9UAaGQuKOKqNrsScjUIGj7x5QG7AEHU" },
+      { name: "Quantum Mechanics.pdf", link: "https://drive.google.com/uc?export=download&id=1ha5_-zvp5EoMVSiOP0H3IeIJlXnvKTI0" },
+      { name: "quantum mechanics-1.pdf", link: "https://drive.google.com/uc?export=download&id=1lzorBmc28DqfugYzWqRw-lUkTc8S88q8" },
+      { name: "PHYSICS IMP QUESTIONS-1.pdf", link: "https://drive.google.com/uc?export=download&id=1pFvG4oap7crTh5g0UF3eRkhnTcNtGZfA" },
+      { name: "Optics.pdf", link: "https://drive.google.com/uc?export=download&id=18KZ2hhFrwf2XZtNuOOKMnVEJbZiOxNGa" },
+      { name: "EM Waves.pdf", link: "https://drive.google.com/uc?export=download&id=1hbOLeqW_50xdhvQHuugwTmC7-0aPc5Hq" },
+      { name: "Electrodynamics by aditya.pdf", link: "https://drive.google.com/uc?export=download&id=15FZAZfrnTe7dWslc9zTAPJu4lIGFEX2W" },
+    { name: "damped osc.pdf", link: "https://drive.google.com/uc?export=download&id=1BUm1abszh1jsgVFe9CPQuFqQ2tbOq3kt" },
+  ],
+  
+  [{ name: "RP.docx", link: "https://docs.google.com/document/d/1FrHJ0bAN3iCac1mdyFGcQiXmiB2zPVIt/export?format=pdf" },
+    { name: "RikkiTikkiTavi_Kipling.pdf", link: "https://drive.google.com/uc?export=download&id=1CSWfdLKyeOItycx3N_NSRKCBCWydT9mH" },
+    { name: "Poems for students.docx", link: "https://docs.google.com/document/d/1_lMJdkTnBKUP7kQ-G6ZZ7nyLcBudrJQB/export?format=pdf" },
+    { name: "one word substitutes.docx", link: "https://docs.google.com/document/d/1yWxwKMFqxuS5-H5rfOCaByUtgtXYctSg/export?format=pdf" },
+    { name: "HS (phonemes).pdf", link: "https://drive.google.com/uc?export=download&id=1M87sKTZIbzc9lOFbxUVKKXoC9WLUzfbh" },
+    { name: "HS (business communication).pdf", link: "https://drive.google.com/uc?export=download&id=1RbyupOOjPk_cGoVeHTppIbSIHIxXeqpE" },
+    { name: "grammar.docx", link: "https://docs.google.com/document/d/188JFKkU_qy4x0zQId4vukZsFO-9XFMeO/export?format=pdf" },
+    { name: "common errors.pdf", link: "https://drive.google.com/uc?export=download&id=1Fm7qVYy90V5wTTiuHLKlO68xemJ_U8nK" }
+  ],
+  
+  [
+    {name:"premium notes",link:"https://drive.google.com/file/d/1PkMfZF3ubDc4hwilMEFfp_OR4yJZU5xl/view?usp=drive_link"},
+    
+    {name:"circuit theory book pdf",link:"https://drive.google.com/file/d/1bbbjK9gAqJbvvOl9VxVMJyh92BV41qj5/view?usp=drive_link"},
+    {name:"dk raju notes part 1",link:"https://drive.google.com/file/d/1_WkiPqk_v0cAZwZgmO7nmGkPXDylzNyM/view?usp=drive_link"},
+    {name:"dk raju notes part 2",link:"https://drive.google.com/file/d/1fArr0s-MtV88LqQ8ga4BovpmqwNmoFJO/view?usp=drive_link"},
+    {name:"dk raju notes part 3",link:"https://drive.google.com/file/d/1wdTGznT3zGI9snkxU2aFZwGaa-lCSt44/view?usp=drive_link"},
+    {name:"thevenin norton pdf",link:"https://drive.google.com/file/d/1dN06WQ906eWNDkQEPSBRzBzsruwpD4iA/view?usp=drive_link"},
+    {name:"transfomer and induction motor",link:"https://drive.google.com/file/d/1-0WNlFVfhNV6FqzGNOm8oLgGDJHroMgP/view?usp=drive_link"},
+
+  ],
+  
+    [{ name: "Engineering Drawing by N.D. Bhatt.pdf", link: "https://drive.google.com/uc?export=download&id=1S-V_lUNs49fLezpLHRUrV8HcC_2B-RBg" }],
+    
+    [{ name: "multiple integral.pdf", link: "https://drive.google.com/uc?export=download&id=1JXgLoIK1ldjhnRNkq8GJki5EkhTUkagI" },
+    { name: "MathsAssignments.pdf", link: "https://drive.google.com/uc?export=download&id=1iqV5HbLkuGso0_vL2jguf1-S070ihxM8" },
+    { name: "Maths_Multiple_Integrals_Notes.pdf", link: "https://drive.google.com/uc?export=download&id=14ufuhFG0BT1RFkSpjiyFNqB8JXM1QztD" },
+    { name: "maths part 1.pdf", link: "https://drive.google.com/uc?export=download&id=1o-F90QYEIBc_JgbaK2LCQCJUpbMhmrFQ" }
+  ],
+  [],
+  [
+    {name:"pyqs",link:"https://drive.google.com/file/d/1T1cLlzn2PtYUqrINWUFM6Su2ncohI2fl/view?usp=drivesdk"}
+  ]
+ 
+    
   ];
 
   const files2 = [
@@ -115,7 +187,25 @@ const ResourceHub = () => {
     { name: "MathsAssignments.pdf", link: "https://drive.google.com/uc?export=download&id=1iqV5HbLkuGso0_vL2jguf1-S070ihxM8" },
     { name: "Maths_Multiple_Integrals_Notes.pdf", link: "https://drive.google.com/uc?export=download&id=14ufuhFG0BT1RFkSpjiyFNqB8JXM1QztD" },
     { name: "maths part 1.pdf", link: "https://drive.google.com/uc?export=download&id=1o-F90QYEIBc_JgbaK2LCQCJUpbMhmrFQ" }
-  ]
+  ],
+  [
+      {
+        name: "Electronics Devices Part 1",
+        link: "https://drive.google.com/uc?export=download&id=1V55-vsnCFGw9-8qFsTFnHHCQVhr_0dhy",
+      },
+      {
+        name: "Electronics Devices Part 2",
+        link: "https://drive.google.com/uc?export=download&id=1HOsX8-9q-ypErR6W7Q2X6MKKTN3A9jJK",
+      },
+      {
+        name: "Electronics Devices Part 3",
+        link: "https://drive.google.com/drive/folders/1ErXy1tAzcgXJ6ttK0UC9dU_KadFdcDQB?usp=drive_link",
+      },
+      {
+        name: "Electronics Devices Part 4",
+        link: "https://drive.google.com/uc?export=download&id=1gvqsrgJPXqFmcMmqK5Nj66QIBf3y9yht",
+      },
+    ],
   ];
   
   const files3 = [
@@ -565,6 +655,14 @@ const subjects = [
       "Introduction to Computing",
       "Chemistry",
       "Environmental Chemistry",
+      "Engineering Mechanics",
+      "Physics",
+      "Communicative English",
+      "Basic Electrical Engineering",
+      "Engineering Graphics & Design",
+      "Mathematics II",
+      "Electronics Devices",
+      "PYQs"
     ],
 
     ["Engineering Mechanics",
@@ -674,8 +772,8 @@ const subjects = [
       <div className="left-content pcmd:w-full pcmd:h-full pcmd:flex-row w-1/6 flex flex-col items-center">
 
         <ul className='flex flex-col h-full items-end  justify-around text-center text-wrap gap-y-4 pb-4 pt-4 desktopView'>
-          <li onClick={() => { setcurrSem(0), handleClick() }} className={`${currSem === 0 ? 'text-[#33FCFF] underline' : ''}`}><Link>Ist    Sem</Link></li>
-          <li onClick={() => { setcurrSem(1), handleClick() }} className={`${currSem === 1 ? 'text-[#33FCFF] underline' : ''}`}><Link>IInd   Sem</Link></li>
+          <li onClick={() => { setcurrSem(0), handleClick() }} className={`${currSem === 0 ? 'text-[#33FCFF] underline' : ''}`}><Link>Ist    year</Link></li>
+          {/* <li onClick={() => { setcurrSem(1), handleClick() }} className={`${currSem === 1 ? 'text-[#33FCFF] underline' : ''}`}><Link>IInd   Sem</Link></li> */}
           <li onClick={() => { setcurrSem(2), handleClick() }} className={`${currSem === 2 ? 'text-[#33FCFF] underline' : ''}`}><Link>IIIrd  Sem</Link></li>
           <li onClick={() => { setcurrSem(3), handleClick() }} className={`${currSem === 3 ? 'text-[#33FCFF] underline' : ''}`}><Link>IVth   Sem</Link></li>
           <li onClick={() => { setcurrSem(4), handleClick() }} className={`${currSem === 4 ? 'text-[#33FCFF] underline' : ''}`}><Link>Vth    Sem</Link></li>

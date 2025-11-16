@@ -21,7 +21,7 @@ const Dashboard = () => {
             const formData = new FormData();
             formData.append("avatar", file);
 
-            const response = await fetch("https://ecs-shashwat.onrender.com//api/v1/users/updateAvatar", {
+            const response = await fetch("/api/v1/users/updateAvatar", {
                 method: "PATCH",
                 headers: {
                     Authorization: `Bearer ${localStorage.getItem("token")}`, 
@@ -49,31 +49,32 @@ const Dashboard = () => {
     };
 
     const handleLogout = async () => {
-        try {
-            const response = await fetch("https://ecs-shashwat.onrender.com/api/v1/users/logout", {
-                method: "POST",
-                headers: {
-                    Authorization: `Bearer ${localStorage.getItem("token")}`, 
-                    "Content-Type": "application/json",
-                },
-            });
+    try {
+        const response = await fetch("/api/v1/users/logout", {
+            method: "POST",
+            headers: {
+                Authorization: `Bearer ${localStorage.getItem("token")}`, 
+                "Content-Type": "application/json",
+            },
+        });
 
-            if (!response.ok) {
-                throw new Error("Failed to log out");
-            }
-
-            // Clear localStorage and reset state
-            localStorage.removeItem("token");
-            localStorage.removeItem("user");
-            setUser(null);
-
-            alert("Logged out successfully!");
-            window.location.href = "/sign-in"; // Redirect to sign-in page
-        } catch (error) {
-            console.error("Error logging out:", error);
-            alert("Failed to log out. Please try again.");
+        if (!response.ok) {
+            throw new Error("Failed to log out");
         }
-    };
+
+        // Clear localStorage and reset state
+        localStorage.removeItem("token");
+        localStorage.removeItem("user");
+        setUser(null);
+
+        alert("Logged out successfully!");
+        window.location.href = "/sign-in"; // Redirect to sign-in page
+    } catch (error) {
+        console.error("Error logging out:", error);
+        alert("Failed to log out. Please try again.");
+    }
+};
+
 
     React.useEffect(() => {
         try {

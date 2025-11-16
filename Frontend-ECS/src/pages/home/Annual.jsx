@@ -22,7 +22,7 @@ const Annual = () => {
             "https://i.postimg.cc/rpBGJhYV/Whats-App-Image-2025-01-15-at-19-48-18-45437702.jpg",
     },
     {
-      title: "Utkrishtha",
+      title: "Utkrishta",
       description: "ECS hosts Utkrishta, a vibrant fresher’s event to welcome the new ECE batch. The celebration fills with fun activities, introductions, and opportunities for students to bond with peers and seniors.New comer batch showcase their talent to crown the title of Mr.Utkrishta and Miss.Utkrishta and make memories of a lifetime.",
       image:
         "https://i.postimg.cc/CLCJ3Yys/MJ-9663.jpg",
@@ -36,7 +36,7 @@ const Annual = () => {
     {
       title: "Dehleez",
           description: "Dehleez, the farewell ceremony organized by ECS, is a heartfelt celebration of the graduating ECE batch. The event honors their achievements, cherishes memories, and bids them an emotional goodbye as they step into a new phase of life.",
-          image: "https://instagram.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/440323056_17908104839953783_8745844986834733664_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fmaa8-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=RY82HdMN09IQ7kNvgGxmJsW&_nc_gid=67de5aba14ed48adb3137bf410660165&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzM1ODEzNjAzNDc1MDUyNTc0Ng%3D%3D.3-ccb7-5&oh=00_AYBCIzKWCHFqwkrhB1SjLnhdi2XHCt5F3JPeiyJpMfh-FA&oe=678D96F4&_nc_sid=fc8dfb",
+          image: "https://i.postimg.cc/z3YLhX8R/IMG-20250903-WA0011.jpg",
     },{
       title: "ECE Orientation",
           description: "ECS proudly conducts an Orientation for ECE department freshers, where professors and seniors warmly welcome them into the world of electronics and communication. The session offer insights into the branch’s vast opportunities, innovative projects, and the guidance available to help students excel in their journey.",
@@ -67,7 +67,7 @@ const Annual = () => {
       description:
         "Dehleez, the farewell ceremony organized by ECS, is a heartfelt celebration of the graduating ECE batch. The event honors their achievements, cherishes memories, and bids them an emotional goodbye as they step into a new phase of life.",
       image:
-        "https://instagram.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/440323056_17908104839953783_8745844986834733664_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fmaa8-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=RY82HdMN09IQ7kNvgGxmJsW&_nc_gid=67de5aba14ed48adb3137bf410660165&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzM1ODEzNjAzNDc1MDUyNTc0Ng%3D%3D.3-ccb7-5&oh=00_AYBCIzKWCHFqwkrhB1SjLnhdi2XHCt5F3JPeiyJpMfh-FA&oe=678D96F4&_nc_sid=fc8dfb",
+        "https://i.postimg.cc/z3YLhX8R/IMG-20250903-WA0011.jpg",
     },{
       title: "ECE Orientation",
           description: "ECS proudly conducts an Orientation for ECE department freshers, where professors and seniors warmly welcome them into the world of electronics and communication. The session offer insights into the branch’s vast opportunities, innovative projects, and the guidance available to help students excel in their journey.",
@@ -98,7 +98,7 @@ const Annual = () => {
       description:
         "Dehleez, the farewell ceremony organized by ECS, is a heartfelt celebration of the graduating ECE batch. The event honors their achievements, cherishes memories, and bids them an emotional goodbye as they step into a new phase of life.",
       image:
-        "https://instagram.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/440323056_17908104839953783_8745844986834733664_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fmaa8-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=RY82HdMN09IQ7kNvgGxmJsW&_nc_gid=67de5aba14ed48adb3137bf410660165&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzM1ODEzNjAzNDc1MDUyNTc0Ng%3D%3D.3-ccb7-5&oh=00_AYBCIzKWCHFqwkrhB1SjLnhdi2XHCt5F3JPeiyJpMfh-FA&oe=678D96F4&_nc_sid=fc8dfb",
+        "https://i.postimg.cc/z3YLhX8R/IMG-20250903-WA0011.jpg",
     },{
       title: "ECE Orientation",
       description: "ECS proudly conducts an Orientation for ECE department freshers, where professors and seniors warmly welcome them into the world of electronics and communication. The session offer insights into the branch’s vast opportunities, innovative projects, and the guidance available to help students excel in their journey.",
@@ -129,7 +129,7 @@ const Annual = () => {
       description:
         "Dehleez, the farewell ceremony organized by ECS, is a heartfelt celebration of the graduating ECE batch. The event honors their achievements, cherishes memories, and bids them an emotional goodbye as they step into a new phase of life.",
       image:
-        "https://instagram.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/440323056_17908104839953783_8745844986834733664_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fmaa8-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=RY82HdMN09IQ7kNvgGxmJsW&_nc_gid=67de5aba14ed48adb3137bf410660165&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzM1ODEzNjAzNDc1MDUyNTc0Ng%3D%3D.3-ccb7-5&oh=00_AYBCIzKWCHFqwkrhB1SjLnhdi2XHCt5F3JPeiyJpMfh-FA&oe=678D96F4&_nc_sid=fc8dfb",
+        "https://i.postimg.cc/z3YLhX8R/IMG-20250903-WA0011.jpg",
     },{
       title: "ECE Orientation",
           description: "ECS proudly conducts an Orientation for ECE department freshers, where professors and seniors warmly welcome them into the world of electronics and communication. The session offer insights into the branch’s vast opportunities, innovative projects, and the guidance available to help students excel in their journey.",
@@ -160,7 +160,7 @@ const Annual = () => {
       description:
         "Dehleez, the farewell ceremony organized by ECS, is a heartfelt celebration of the graduating ECE batch. The event honors their achievements, cherishes memories, and bids them an emotional goodbye as they step into a new phase of life.",
       image:
-        "https://instagram.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/440323056_17908104839953783_8745844986834733664_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fmaa8-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=RY82HdMN09IQ7kNvgGxmJsW&_nc_gid=67de5aba14ed48adb3137bf410660165&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzM1ODEzNjAzNDc1MDUyNTc0Ng%3D%3D.3-ccb7-5&oh=00_AYBCIzKWCHFqwkrhB1SjLnhdi2XHCt5F3JPeiyJpMfh-FA&oe=678D96F4&_nc_sid=fc8dfb",
+        "https://i.postimg.cc/z3YLhX8R/IMG-20250903-WA0011.jpg",
     },{
       title: "ECE Orientation",
           description: "ECS proudly conducts an Orientation for ECE department freshers, where professors and seniors warmly welcome them into the world of electronics and communication. The session offer insights into the branch’s vast opportunities, innovative projects, and the guidance available to help students excel in their journey.",
@@ -191,7 +191,7 @@ const Annual = () => {
       description:
         "Dehleez, the farewell ceremony organized by ECS, is a heartfelt celebration of the graduating ECE batch. The event honors their achievements, cherishes memories, and bids them an emotional goodbye as they step into a new phase of life.",
       image:
-        "https://instagram.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/440323056_17908104839953783_8745844986834733664_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fmaa8-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=RY82HdMN09IQ7kNvgGxmJsW&_nc_gid=67de5aba14ed48adb3137bf410660165&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzM1ODEzNjAzNDc1MDUyNTc0Ng%3D%3D.3-ccb7-5&oh=00_AYBCIzKWCHFqwkrhB1SjLnhdi2XHCt5F3JPeiyJpMfh-FA&oe=678D96F4&_nc_sid=fc8dfb",
+        "https://i.postimg.cc/z3YLhX8R/IMG-20250903-WA0011.jpg",
     },{
       title: "ECE Orientation",
           description: "ECS proudly conducts an Orientation for ECE department freshers, where professors and seniors warmly welcome them into the world of electronics and communication. The session offer insights into the branch’s vast opportunities, innovative projects, and the guidance available to help students excel in their journey.",
@@ -222,7 +222,7 @@ const Annual = () => {
       description:
         "Dehleez, the farewell ceremony organized by ECS, is a heartfelt celebration of the graduating ECE batch. The event honors their achievements, cherishes memories, and bids them an emotional goodbye as they step into a new phase of life.",
       image:
-        "https://instagram.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/440323056_17908104839953783_8745844986834733664_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fmaa8-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=RY82HdMN09IQ7kNvgGxmJsW&_nc_gid=67de5aba14ed48adb3137bf410660165&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzM1ODEzNjAzNDc1MDUyNTc0Ng%3D%3D.3-ccb7-5&oh=00_AYBCIzKWCHFqwkrhB1SjLnhdi2XHCt5F3JPeiyJpMfh-FA&oe=678D96F4&_nc_sid=fc8dfb",
+        "https://i.postimg.cc/z3YLhX8R/IMG-20250903-WA0011.jpg",
     },{
       title: "ECE Orientation",
           description: "ECS proudly conducts an Orientation for ECE department freshers, where professors and seniors warmly welcome them into the world of electronics and communication. The session offer insights into the branch’s vast opportunities, innovative projects, and the guidance available to help students excel in their journey.",
@@ -253,7 +253,7 @@ const Annual = () => {
       description:
         "Dehleez, the farewell ceremony organized by ECS, is a heartfelt celebration of the graduating ECE batch. The event honors their achievements, cherishes memories, and bids them an emotional goodbye as they step into a new phase of life.",
       image:
-        "https://instagram.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/440323056_17908104839953783_8745844986834733664_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fmaa8-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=RY82HdMN09IQ7kNvgGxmJsW&_nc_gid=67de5aba14ed48adb3137bf410660165&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzM1ODEzNjAzNDc1MDUyNTc0Ng%3D%3D.3-ccb7-5&oh=00_AYBCIzKWCHFqwkrhB1SjLnhdi2XHCt5F3JPeiyJpMfh-FA&oe=678D96F4&_nc_sid=fc8dfb",
+        "https://i.postimg.cc/z3YLhX8R/IMG-20250903-WA0011.jpg",
     },
     
   ];
@@ -299,18 +299,18 @@ const Annual = () => {
           {data.map((item, index) => (
             <SwiperSlide key={index}>
               <div
-                className="relative w-[90%]  p-4 bg-gradient-to-b from-[#0f1347] to-[#103360] shadow-lg rounded-[20px]  border-blue-500"
+                className="relative w-[90%]  p-4 bg-black shadow-lg rounded-[20px]  border-blue-500"
               >
                 <div
                   className="mx-0 mt-6 h-48 w-full px-4 bg-cover bg-center rounded-[20px]"
                   style={{
                     backgroundImage: `url(${item.image})`,
-                    border: "2px solid #007bff",
-                    boxShadow: "0 0 10px 2px #007bff, inset 0 0 5px #007bff",
+                    border: "2px solid #18c8f9ff",
+                    boxShadow: "0 0 10px 2px #00bfffff, inset 0 0 5px #007bff",
                   }}
                 ></div>
                 <div className="p-6">
-                  <h2 className="text-xl font-bold text-blue-400 text-center">
+                  <h2 className="text-xl font-bold text-blue-200 text-center">
                     {item.title}
                   </h2>
                   <p className="text-gray-300 text-sm mt-3 text-center">

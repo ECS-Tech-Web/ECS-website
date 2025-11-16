@@ -4,36 +4,54 @@ import Signin from "./Signin";
 function Profile() {
   // State to hold user data
   const [user, setUser] = React.useState(null);
-  const handleLogout = async () => {
-    try {
-        const response = await fetch("/api/v1/users/logout", {
-            method: "POST",
-            headers: {
-                Authorization: `Bearer ${localStorage.getItem("token")}`,
-                "Content-Type": "application/json",
-            },
-        });
+//   const handleLogout = async () => {
+//     try {
+//         const response = await fetch("/api/v1/users/logout", {
+//             method: "POST",
+//             headers: {
+//                 Authorization: `Bearer ${localStorage.getItem("token")}`,
+//                 "Content-Type": "application/json",
+//             },
+//         });
 
-        // Check if the response is not successful
-        if (!response.ok) {
-            const errorText = await response.text(); // Read the response body as text
-            console.error("Error Response:", errorText);
-            throw new Error("Failed to log out");
-        }
+//         // Check if the response is not successful
+//         if (!response.ok) {
+//             const errorText = await response.text(); // Read the response body as text
+//             console.error("Error Response:", errorText);
+//             throw new Error("Failed to log out");
+//         }
 
-        // Parse response as JSON if successful
-        const data = await response.json();
-        console.log("Logout successful:", data);
+//         // Parse response as JSON if successful
+//         const data = await response.json();
+//         console.log("Logout successful:", data);
 
-        // Clear user data from localStorage and reset state
-        localStorage.removeItem("token");
-        localStorage.removeItem("user");
-        setUser(null);
-        alert("Logged out successfully");
-    } catch (error) {
-        console.error("Error logging out:", error);
-        alert("Failed to log out. Please try again.");
-    }
+//         // Clear user data from localStorage and reset state
+//         localStorage.removeItem("token");
+//         localStorage.removeItem("user");
+//         setUser(null);
+//         alert("Logged out successfully");
+//     } catch (error) {
+//         console.error("Error logging out:", error);
+//         alert("Failed to log out. Please try again.");
+//     }
+// };
+const handleLogout = async () => {
+  try {
+    await fetch("/api/v1/users/logout", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem("token")}`,
+        "Content-Type": "application/json",
+      },
+    });
+  } catch (error) {
+    console.error("Logout API failed, but clearing session:", error);
+  } finally {
+    localStorage.removeItem("token");
+    localStorage.removeItem("user");
+    setUser(null);
+    alert("Logged out successfully");
+  }
 };
 
 

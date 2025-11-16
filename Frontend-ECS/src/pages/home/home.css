@@ -1,0 +1,100 @@
+.glitch {
+  position: relative;
+  color: rgb(238, 244, 244);
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  animation: flicker 1.5s infinite alternate;
+  letter-spacing: 2px;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.85;
+  clip: rect(0, 0, 0, 0);
+  /* Adding a slight blur to make glitch softer */
+  filter: blur(0.5px);
+}
+
+.glitch::before {
+  left: 3px;
+  text-shadow:
+    -3px 0 red,
+    3px 2px #ff00ff;
+  animation: glitchTop 1.5s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  left: -3px;
+  text-shadow:
+    3px 0 blue,
+    -3px -2px cyan;
+  animation: glitchBottom 1.2s infinite linear alternate-reverse;
+}
+
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+  }
+  20%, 24%, 55% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes glitchTop {
+  0% {
+    clip: rect(2px, 9999px, 15px, 0);
+    transform: translate(-5px, -3px) skew(-5deg);
+  }
+  20% {
+    clip: rect(10px, 9999px, 20px, 0);
+    transform: translate(5px, 4px) skew(5deg);
+  }
+  40% {
+    clip: rect(12px, 9999px, 18px, 0);
+    transform: translate(-4px, 3px) skew(-3deg);
+  }
+  60% {
+    clip: rect(0px, 9999px, 12px, 0);
+    transform: translate(4px, -2px) skew(4deg);
+  }
+  80% {
+    clip: rect(5px, 9999px, 14px, 0);
+    transform: translate(-6px, 5px) skew(-6deg);
+  }
+  100% {
+    clip: rect(3px, 9999px, 10px, 0);
+    transform: translate(0, 0) skew(0deg);
+  }
+}
+
+@keyframes glitchBottom {
+  0% {
+    clip: rect(14px, 9999px, 28px, 0);
+    transform: translate(5px, 6px) skew(4deg);
+  }
+  20% {
+    clip: rect(6px, 9999px, 18px, 0);
+    transform: translate(-5px, -3px) skew(-5deg);
+  }
+  40% {
+    clip: rect(8px, 9999px, 22px, 0);
+    transform: translate(4px, 4px) skew(3deg);
+  }
+  60% {
+    clip: rect(0px, 9999px, 14px, 0);
+    transform: translate(-4px, -6px) skew(-4deg);
+  }
+  80% {
+    clip: rect(5px, 9999px, 19px, 0);
+    transform: translate(6px, 1px) skew(6deg);
+  }
+  100% {
+    clip: rect(3px, 9999px, 15px, 0);
+    transform: translate(0, 0) skew(0deg);
+  }
+}

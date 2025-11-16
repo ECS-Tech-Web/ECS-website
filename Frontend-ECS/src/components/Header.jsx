@@ -23,7 +23,8 @@ export default function Header() {
     return (
         <>
         <header className="mobile:hidden mobile:absolute xl:block shadow sticky z-50 top-0">
-        <nav className='flex absolute w-full justify-between items-center p-2'>
+        <nav className="flex absolute w-full justify-between items-center p-2 bg-transparent">
+
                 <div>
                     
                 <div className='pl-3'>

@@ -8,7 +8,6 @@ const cardsData = [
     { title: "Subrata Lodh", description: "Technical Head", imageUrl: "https://i.postimg.cc/bN3rz6R1/subrata.png" },
     { title: "Tejas Pandey", description: "Treasurer", imageUrl: "https://i.postimg.cc/26cpdszk/Background-Eraser-20250902-231256600.png" },
    { title: "Manisha Saloi", description: "Media & Graphics Design Head", imageUrl: "https://i.postimg.cc/YCw2L5W3/manisha-1.png" },
-    { title: "Kabyashree Hazarika", description: "Junior Executive", imageUrl: "https://i.postimg.cc/xdTFskJY/IMG-20250902-220003.png" },
     { title: "Krrish Khandelia", description: "Junior Executive", imageUrl: "https://i.postimg.cc/43qvgj0n/IMG-20250902-205737.png" },
     { title: "Arnav Kumar", description: "Junior Executive", imageUrl: "https://i.postimg.cc/LsGP77CD/IMG-20250902-205702.png" },
     { title: "Yasank Jain", description: "Junior Executive", imageUrl: "https://i.postimg.cc/50JWN9jR/IMG-20250902-205625.png" },
