@@ -1,4 +1,3 @@
-
 import { asyncHandler } from "../utils/asyncHandler.js";
 import { APIError } from "../utils/APIError.js"
 import { User } from "../models/student.js";

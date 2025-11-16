@@ -35,14 +35,14 @@ const Events = () => {
       isLITSection || isTECHSection
         ? "https://i.postimg.cc/1506Lky2/Whats-App-Image-2025-01-15-at-21-04-35-dd05225e-removebg-preview.png"
         : isFitSection
-        ? "https://i.postimg.cc/cCnQ2P6k/Whats-App-Image-2025-01-15-at-20-26-14-1efc9130-removebg-preview.png"
+        ? "https://i.postimg.cc/1506Lky2/Whats-App-Image-2025-01-15-at-21-04-35-dd05225e-removebg-preview.png"
         : "https://i.postimg.cc/mgjNYYv7/Component-2.png"
     );
     
 
     const handleMouseEnter = () => {
       if (isFitSection) {
-        setButtonImage("https://i.postimg.cc/05CC71DZ/Whats-App-Image-2025-01-15-at-20-40-12-d54596a0-removebg-preview.png")
+        setButtonImage("https://i.postimg.cc/1506Lky2/Whats-App-Image-2025-01-15-at-21-04-35-dd05225e-removebg-preview.png")
       }
       else if(isLITSection || isTECHSection){
         setButtonImage("https://i.postimg.cc/MKJV36J1/Whats-App-Image-2025-01-15-at-21-05-01-cc2300b5-removebg-preview.png")
@@ -54,7 +54,7 @@ const Events = () => {
 
     const handleMouseLeave = () => {
       if (isFitSection) {
-        setButtonImage("https://i.postimg.cc/cCnQ2P6k/Whats-App-Image-2025-01-15-at-20-26-14-1efc9130-removebg-preview.png")
+        setButtonImage("https://i.postimg.cc/1506Lky2/Whats-App-Image-2025-01-15-at-21-04-35-dd05225e-removebg-preview.png")
       }
       else if(isLITSection || isTECHSection){
         setButtonImage("https://i.postimg.cc/1506Lky2/Whats-App-Image-2025-01-15-at-21-04-35-dd05225e-removebg-preview.png")
@@ -142,7 +142,7 @@ const Events = () => {
         {
           title: "Dehleez",
           description: "Dehleez, the farewell ceremony organized by ECS, is a heartfelt celebration of the graduating ECE batch. The event honors their achievements, cherishes memories, and bids them an emotional goodbye as they step into a new phase of life.",
-          image: "https://instagram.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/440323056_17908104839953783_8745844986834733664_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fmaa8-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=RY82HdMN09IQ7kNvgGxmJsW&_nc_gid=67de5aba14ed48adb3137bf410660165&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzM1ODEzNjAzNDc1MDUyNTc0Ng%3D%3D.3-ccb7-5&oh=00_AYBCIzKWCHFqwkrhB1SjLnhdi2XHCt5F3JPeiyJpMfh-FA&oe=678D96F4&_nc_sid=fc8dfb",
+          image: "https://i.postimg.cc/z3YLhX8R/IMG-20250903-WA0011.jpg",
           link:"/dehleez"
         },
       ],
@@ -155,21 +155,21 @@ const Events = () => {
           description: "The chess competition under the Spectrum FIT domain fosters critical thinking, strategy, and mental agility. It serves as a platform for participants to showcase their intellectual prowess and decision-making skills",
           image:
             "https://i.postimg.cc/Y9SzsKqH/Whats-App-Image-2025-01-14-at-13-45-59-387cf123.jpg",
-          link:"https://docs.google.com/forms/d/e/1FAIpQLSdVd4FTMyXtiQwdjVGN9woDhDo1xNbEfwW104tExrz2qUWtqA/alreadyresponded"
+          // link:"https://docs.google.com/forms/d/e/1FAIpQLSdVd4FTMyXtiQwdjVGN9woDhDo1xNbEfwW104tExrz2qUWtqA/alreadyresponded"
         },
         {
           title: "Table Tennis",
           description: "Table tennis under Spectrum FIT highlights agility, reflexes, and quick decision-making. The competition fosters both individual and team skills, requiring intense focus and coordination for success",
           image:
             "https://i.postimg.cc/43P1PNGP/Whats-App-Image-2025-01-14-at-13-46-00-a92c5ee1.jpg",
-          link:"https://docs.google.com/forms/d/e/1FAIpQLSdvzabebA5eH6TjvtFliHy8jnRAQQRjkJD_68D__jvorok4Zg/viewform"
+          // link:"https://docs.google.com/forms/d/e/1FAIpQLSdvzabebA5eH6TjvtFliHy8jnRAQQRjkJD_68D__jvorok4Zg/viewform"
         },
         {
           title: "Badminton",
           description: "Badminton promotes agility, endurance,& control over rapid movements. The competition encourages both individual excellence & team collaboration, testing players' reflexes and strategic thinking.",
           image:
             "https://i.postimg.cc/43s5pHDn/Whats-App-Image-2025-01-14-at-13-46-01-501cd8e6.jpg",
-          link:"https://docs.google.com/forms/d/e/1FAIpQLSdUsnKg4k-x2xQIuhbgZ95U2_JrkcJMFP5-ALXB61FwREA6qg/viewform"
+          // link:"https://docs.google.com/forms/d/e/1FAIpQLSdUsnKg4k-x2xQIuhbgZ95U2_JrkcJMFP5-ALXB61FwREA6qg/viewform"
         },
         {
           title: "Cricket",

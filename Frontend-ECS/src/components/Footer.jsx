@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -8,9 +9,9 @@ const Footer = () => {
         <div className="text-center tablet:text-left mb-6 tablet:mb-0 tablet:ml-[5vw] xl:ml-0">
           <h2 className="text-foot text-base mb-3">QUICK LINKS</h2>
           <ul className="mobile:-translate-x-[20vw] tablet:transform-none top-0 space-y-2 text-base text-left font-rajdhani">
-            <li><a href="/Resource+Hub" className="hover:text-[#819BE2]">Resource Hub</a></li>
-            <li><a href="" className="hover:text-[#819BE2]">Messages</a></li>
-            <li><a href="/annual-attraction" className="hover:text-[#819BE2]">Annual <br />Attraction</a></li>
+            <li><Link to="/Resource+Hub" className="hover:text-[#819BE2]">Resource Hub</Link></li>
+            <li><Link to="" className="hover:text-[#819BE2]">Messages</Link></li>
+            <li><Link to="/annual-attraction" className="hover:text-[#819BE2]">Annual<br />Attraction</Link></li>
             
           </ul>
         </div>
@@ -26,7 +27,7 @@ const Footer = () => {
           </div>
 
           <h2 className="text-foot text-base mb-3">CONTACT US</h2>
-          <p className="text-base font-rajdhani mb-3">Email: ecs.nitsilchar2025@gmail.com</p>
+          <p className="text-base font-rajdhani mb-3">Email: ecs.nitsilchar2026@gmail.com</p>
 
           {/* Social Links */}
           <h2 className="text-foot text-base mb-3 bg-gradient-to-b from-top to-bot bg-clip-text text-transparent">FOLLOW US</h2>
@@ -61,10 +62,10 @@ const Footer = () => {
         <div className="text-center tablet:text-left tablet:mr-[5vw] xl:mr-none">
           <h2 className="mobile:hidden text-foot text-base mb-3 tablet:block">QUICK LINKS</h2>
           <ul className="mobile:absolute tablet:static top-[18.1vw] right-[15vw] space-y-2 text-right text-base font-rajdhani">
-            <li><a href="/members" className="hover:text-[#819BE2]">Members</a></li>
-            <li><a href="/photogallery" className="hover:text-[#819BE2]">Gallery</a></li>
-            <li><a href="/about" className="hover:text-[#819BE2]">About Us</a></li>
-            <li><a href="/faq" className="hover:text-[#819BE2]">FAQs</a></li>
+            <li><Link to="/members" className="hover:text-[#819BE2]">Members</Link></li>
+            <li><Link to="/photogallery" className="hover:text-[#819BE2]">Gallery</Link></li>
+            <li><Link to="/about" className="hover:text-[#819BE2]">About Us</Link></li>
+            <li><Link to="/faq" className="hover:text-[#819BE2]">FAQs</Link></li>
           </ul>
         </div>
       </div>

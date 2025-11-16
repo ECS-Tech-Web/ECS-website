@@ -61,7 +61,6 @@ const Message = () => {
       content: "As the General Secretary of ECS, I feel privileged to represent a society that thrives on innovation, teamwork, and excellence in the domain of electronics and communication. Our aim is to nurture a dynamic community where creativity is encouraged, knowledge is exchanged, and every member gets the opportunity to grow to their fullest potential. Together, we aspire to uplift our society by welcoming fresh challenges, driving forward with technological progress, and leaving a meaningful impact both on our campus and beyond. ECE forever!!!"
     },
   ];
-
   return (
     <div className="max-w-6xl mx-auto items-center p-2 mobile:-mt-10">
       <div className="message border border-transparent p-5 h-max text-center space-y-6">
